@@ -616,8 +616,7 @@ hr {
 
     h1 {
         font-size: 50px;
-        margin-top: 50px;
-        margin-bottom: 90vh;
+        margin-top: 50px;        
     }
 
     /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
