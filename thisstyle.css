@@ -1,0 +1,84 @@
+
+.displaylarge {
+    display:none
+}
+
+.container-fluid img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.background-basic {
+
+    height: 100vh;
+    
+    background: #a7cece;
+    
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+#img1 {
+    background-image: url('media/NM\ melking\ 51.jpg'); 
+    
+    
+    
+}
+
+#img2 {
+    
+    background-image: url('media/NM\ melking\ 13.jpg');
+  
+}
+
+#img3 {
+    
+    background-image: url('media/NM\ melking\ 7.jpg');
+  
+}
+
+@media only screen and (min-width:576) {
+
+}
+@media only screen and (min-width:768px) {
+    #img1 {
+        background-attachment: fixed;
+    }
+
+    #img2 {
+        background-attachment: fixed;
+    }
+
+    #img3 {
+        background-attachment: fixed;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+    #img1 {
+        background-attachment: fixed;
+    }
+
+    #img2 {
+        background-attachment: fixed;
+    }
+
+    #img3 {
+        background-attachment: fixed;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .displaylarge {
+        display:block
+    }
+
+}
+

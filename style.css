@@ -181,11 +181,11 @@ p {
 
 
 h1 {
-    color: #336600;
+    color: #333;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
+    font-weight: bold;
     font-size: 30px;
 }
 
@@ -234,6 +234,10 @@ hr {
     
 }
 
+.byline .date {
+    padding-top:6px; display:block;
+}
+
 .bylinesmall {
     margin: auto;
 }
@@ -249,6 +253,7 @@ hr {
 /********** generelle klasser ***************/
 
 .padding {
+    margin-top: 50px;
     height: 5px;
     margin-bottom: 50px;
 }
