@@ -53,6 +53,11 @@ body {
     width: 330px;
 }
 
+.text p {
+    line-height: 32px;
+}
+
+
 
 
 .fact li {
@@ -222,6 +227,7 @@ hr {
     margin-right: 10%;
     margin-bottom: 75px;
     color: #515150;
+    line-height: 30px;
 }
 
 
