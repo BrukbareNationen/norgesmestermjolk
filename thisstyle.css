@@ -152,6 +152,12 @@
 
     .button {
         top: -350px;
+        left: 40%;
+    }
+
+    .button img {
+        height: 200px;
+        width: 200px;
     }
 
 }

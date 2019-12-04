@@ -123,7 +123,7 @@
 	<div class="container">
 		
 		<video id="video2" playsinline poster="media/Still 2.jpg" src="media/Video 2.mp4"
-			onclick="this.paused ? (this.play(),displaynone('button2') ) : this.pause();"></video>
+			onclick="this.paused ? (this.play(),displaynone('button2') ) : (this.pause(), displayblock('button2'));"></video>
 			
 			
 			<div class="button" id="button2"  href="#" onClick="document.getElementById('video2').click(); displaynone('button2');"><img src="media/playbutton.png" alt="">
@@ -152,7 +152,7 @@
 	</div>
 
 	<div class="container">
-		<video id="video3" playsinline poster="media/Still 3.jpg" src="media/Video 3.mp4" onclick="this.paused ? (this.play(),displaynone('button3') ) : this.pause();"></video>
+		<video id="video3" playsinline poster="media/Still 3.jpg" src="media/Video 3.mp4" onclick="this.paused ? (this.play(),displaynone('button3') ) : (this.pause(), displayblock('button3'));"></video>
 
 		<div class="button" id="button3"  href="#" onClick="document.getElementById('video3').click(); displaynone('button3');"><img src="media/playbutton.png" alt="">
 		</div>
@@ -201,7 +201,7 @@
 
 	<div class="container">
 		<video id="video4" playsinline poster="media/Still 4.jpg" preload="none" src="media/Video 4.mp4"
-		onclick="this.paused ? (this.play(),displaynone('button4') ) : this.pause();"></video>
+		onclick="this.paused ? (this.play(),displaynone('button4') ) : (this.pause(), displayblock('button4'));"></video>
 
 		<div class="button" id="button4"  href="#" onClick="document.getElementById('video4').click(); displaynone('button4');"><img src="media/playbutton.png" alt="">
 		</div>
@@ -228,7 +228,7 @@
 
 	<div class="container">
 		<video id="video5" playsinline poster="media/Still 5.jpg" preload="none" src="media/Video 5.mp4"
-		onclick="this.paused ? (this.play(),displaynone('button5') ) : this.pause();"></video>
+		onclick="this.paused ? (this.play(),displaynone('button5') ) : (this.pause(), displayblock('button5'));"></video>
 
 		<div class="button" id="button5"  href="#" onClick="document.getElementById('video5').click(); displaynone('button5');"><img src="media/playbutton.png" alt="">
 		</div>
@@ -275,7 +275,7 @@
 
 	<div class="container">
 		<video id="video6" playsinline poster="media/Still 6.jpg" preload="none" src="media/Video 6.mp4"
-		onclick="this.paused ? (this.play(),displaynone('button6') ) : this.pause();"></video>
+		onclick="this.paused ? (this.play(),displaynone('button6') ) : (this.pause(), displayblock('button6'));"></video>
 
 		<div class="button" id="button6"  href="#" onClick="document.getElementById('video6').click(); displaynone('button6');"><img src="media/playbutton.png" alt="">
 		</div>
@@ -308,7 +308,7 @@
 
 	<div class="container">
 		<video id="video7" playsinline poster="media/Still 7.jpg" preload="none" src="media/Video 7.mp4"
-		onclick="this.paused ? (this.play(),displaynone('button7') ) : this.pause();"></video>
+		onclick="this.paused ? (this.play(),displaynone('button7') ) : (this.pause(), displayblock('button7'));"></video>
 
 		<div class="button" id="button7"  href="#" onClick="document.getElementById('video7').click(); displaynone('button7');"><img src="media/playbutton.png" alt="">
 		</div>
@@ -330,7 +330,7 @@
 
 	<div class="container">
 		<video id="video8" playsinline poster="media/Still 8.jpg" preload="none" src="media/Video 8.mp4"
-		onclick="this.paused ? (this.play(),displaynone('button8') ) : this.pause();"></video>
+		onclick="this.paused ? (this.play(),displaynone('button8') ) : (this.pause(), displayblock('button8'));"></video>
 
 		<div class="button" id="button8"  href="#" onClick="document.getElementById('video8').click(); displaynone('button8');"><img src="media/playbutton.png" alt="">
 		</div>
