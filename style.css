@@ -546,7 +546,10 @@ hr {
     }
 
     .byline {
+        width: fit-content;
+        margin: auto;
         margin-bottom: 0px;
+        text-align: left;
 
     }
 
